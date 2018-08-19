@@ -35,11 +35,12 @@ const Header = ({ data: { site } }) => (
         <Logo src={logoImage} alt={site.siteMetadata.title} />
       </Link>
       <Navigation>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/services">Services</NavLink>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/blog">Blog</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
+        <NavLink to="/">Naslovna</NavLink>
+        <NavLink to="/putovanja">Putovanja</NavLink>
+        <NavLink to="/hrana">Hrana</NavLink>
+        <NavLink to="/stil">Stil</NavLink>
+        <NavLink to="/komunikacije">Komunikacije</NavLink>
+        <NavLink to="/zdravlje">Zdravlje</NavLink>
       </Navigation>
     </HeaderContent>
   </HeaderWrapper>

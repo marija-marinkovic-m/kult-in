@@ -19,7 +19,7 @@ const Services = ({ data }) => {
     <Section>
       <Grid item xs={12} sm={8}>
         <Helmet title="Services" />
-        <Typography variant="display1">Services</Typography>
+        <Typography variant="display1">Zdravlje</Typography>
         <Typography component={Markdown} source={content} escapeHtml={false} />
       </Grid>
     </Section>

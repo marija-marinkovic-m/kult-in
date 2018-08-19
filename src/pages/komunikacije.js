@@ -14,15 +14,15 @@ labore ingeniis, quis vidisse ubi labore tempor, ita quem offendit probant. Aut
 illum cillum minim consequat ea legam te iis fore consequat.
 `;
 
-const About = ({ data }) => {
+const Services = ({ data }) => {
   return (
     <Section>
       <Grid item xs={12} sm={8}>
-        <Helmet title="About" />
-        <Typography variant="display1">About</Typography>
+        <Helmet title="Services" />
+        <Typography variant="display1">Komunikacije</Typography>
         <Typography component={Markdown} source={content} escapeHtml={false} />
       </Grid>
     </Section>
   );
 };
-export default About;
+export default Services;
