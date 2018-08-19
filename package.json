@@ -1,7 +1,7 @@
 {
   "name": "kult-in",
   "description": "Magazine",
-  "version": "0.0.21",
+  "version": "0.0.1",
   "author": "Daniel Mahon <daniel@mahonstudios.com>",
   "dependencies": {
     "apollo-cache-inmemory": "1.1.12",
@@ -60,7 +60,7 @@
     "stylelint": "9.2.0",
     "stylelint-config-standard": "18.2.0",
     "stylelint-processor-glamorous": "0.3.0",
-    "versionist": "github:marija-marinkovic-m/versionist"
+    "versionist": "github:danielmahon/versionist"
   },
   "repository": {
     "type": "git",
